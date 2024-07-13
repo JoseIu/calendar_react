@@ -1,0 +1,21 @@
+.nav {
+	padding: 1rem;
+	background-color: rgb(37, 37, 37);
+	color: white;
+
+	display: flex;
+	justify-content: space-between;
+}
+.nav__ul {
+	display: flex;
+
+	gap: 1rem;
+}
+.nav__li {
+}
+.nav__link {
+	font-weight: 600;
+}
+.nav__link--active {
+	color: green;
+}
